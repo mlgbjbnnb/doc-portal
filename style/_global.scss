@@ -1,0 +1,5 @@
+$default-font-size: 16px !default;
+
+@function rem-calc($px) {
+  @return $px / $default-font-size * 1rem;
+}

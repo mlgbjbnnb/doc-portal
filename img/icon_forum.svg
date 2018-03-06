@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="13px" viewBox="0 0 13 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_forum</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-112.000000, -261.000000)" fill="#C6D4E1">
+            <path d="M123.5,268 L125,268 L125,272.5 C125,273.325 124.325,274 123.5,274 L119,274 L119,272.5 L123.5,272.5 L123.5,268 Z M113.666667,261 L120.350168,261 C121.266835,261 122,261.733165 122,262.649832 L122,269.333333 C122,270.25 121.25,271 120.334175,271 L113.666667,271 C112.75,271 112,270.25 112,269.333333 L112,262.666667 C112,261.75 112.75,261 113.666667,261 Z M114,263.5 L114,265 L120,265 L120,263.5 L114,263.5 Z M114,267 L114,268.5 L120,268.5 L120,267 L114,267 Z" id="icon_forum"></path>
+        </g>
+    </g>
+</svg>

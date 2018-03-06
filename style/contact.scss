@@ -1,0 +1,60 @@
+.contactContainerExpand {
+  position: fixed;
+  bottom: rem-calc(108px);
+  right: rem-calc(20px);
+  height: rem-calc(244px);
+  width: rem-calc(244px);
+  box-shadow: 0 0 rem-calc(20px) rgba(0, 0, 0, 0.2);
+  border-radius: rem-calc(8px);
+  background-color: #ffffff;
+  > ul {
+    list-style: none;
+    padding-left: rem-calc(30px);
+    padding-top: rem-calc(14px);
+    font-size: rem-calc(14px);
+    color: #4A4A4A;
+    line-height: rem-calc(14px);
+    > li {
+      padding-top: rem-calc(32px);
+      > a {
+        color: #00A0E9;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.contactContainerExpandEn {
+  composes: contactContainerExpand;
+  height: rem-calc(200px);
+}
+
+.contactContainerCollapse {
+  box-sizing: content-box;
+  composes: contactContainerExpand;
+  background: url(../img/btn_contact.svg) center center no-repeat;
+  cursor: pointer;
+  padding: rem-calc(18px);
+  height: rem-calc(44px);
+  width: rem-calc(44px);
+  box-shadow: none;
+  > ul {
+    display: none;
+  }
+}
+
+.contactLogoCollapse {
+  background: url(../img/contact_us.png) center center no-repeat;
+  height: rem-calc(36px);
+}
+
+.contactLogoExpand {
+  background: url(../img/contact_us.png) 0 0 no-repeat;
+  height: rem-calc(36px);
+  margin: rem-calc(30px) 0 0 rem-calc(30px);
+}
+
+.arrowRight {
+  background: url(../img/btn_arrow.svg) 90% 90% no-repeat;
+}
+

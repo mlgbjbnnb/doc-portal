@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_dashboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-40.000000, -263.000000)" fill="#C6D4E1">
+            <path d="M48.972098,267.953185 C48.8669731,268.132527 48.661052,268.161662 48.5144955,268.01793 L47.1435433,266.674486 C46.9969869,266.530754 46.7855003,266.556652 46.67481,266.732109 L44.7504062,269.771204 C44.6390975,269.946661 44.4269926,269.973854 44.278581,269.832064 L43.3819275,268.976145 C43.2335159,268.834355 43.0090433,268.853131 42.8835119,269.016934 L40.0618362,272.594238 C39.9363047,272.758041 39.9931094,273 40.3134676,273 L51.9966028,273 L51.9966028,263.175707 C51.9978396,262.965936 51.6309338,262.940038 51.5258089,263.119379 L48.972098,267.953185 Z" id="icon_dashboard"></path>
+        </g>
+    </g>
+</svg>

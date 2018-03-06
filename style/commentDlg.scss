@@ -1,0 +1,89 @@
+.commentDlg {
+  position:absolute;
+  background-color: #fff;
+  width: rem-calc(380px);
+  height: rem-calc(252px);
+  border: rem-calc(1px) solid #E1EBF0;
+  box-shadow: 0 0 rem-calc(16px) 0 rgba(127, 153, 167, 0.2);
+  border-radius: rem-calc(8px);
+  display:none;
+}
+
+.close {
+  right: rem-calc(8px);
+  top: rem-calc(8px);
+  position: absolute;
+  color: #7D9BB4;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+.formContainer {
+  padding: rem-calc(36px) rem-calc(18px);
+  > div {
+    margin-bottom: rem-calc(10px);
+  }
+  input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #E1EBF0;
+    font-size: rem-calc(14px);
+    padding: rem-calc(10px) 0;
+    color: #7D9BB4;
+    &:focus{
+      outline: none;
+    }
+    &[type="submit"] {
+      font-size: rem-calc(14px);
+      background: #ffffff;
+      color: #00A0E9;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      width: auto;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0;
+    width: 100%;
+    font-size: rem-calc(14px);
+    resize: none;
+    border: none;
+    border-bottom: 1px solid #E1EBF0;
+    height: rem-calc(100px);
+    color: #7D9BB4;
+    &:focus{
+      outline: none;
+    }
+  }
+
+  button {
+    font-size: rem-calc(14px);
+    float: right;
+    background: #ffffff;
+    color: #00A0E9;
+    border: none;
+    cursor: pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.commentSuccessContainer {
+  background: url(../img/icon_success.svg) 50% rem-calc(72px) no-repeat;
+  padding-top: rem-calc(132px);
+  text-align: center;
+  font-size: rem-calc(14px);
+  color: #7D9BB4;
+  line-height: rem-calc(24px);
+}

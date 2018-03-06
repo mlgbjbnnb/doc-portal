@@ -1,0 +1,72 @@
+.dpSearchListContainer {
+  position: static;
+  margin-top: rem-calc(160px);
+}
+
+.searchFaqResultContainer {
+  width: rem-calc(1200px);
+  margin: 0 auto;
+  em {
+    color: #00A0E9;
+    font-style: normal;
+  }
+}
+
+.searchResultContainer {
+  width: rem-calc(1200px);
+  margin: rem-calc(96px) auto 0 auto;
+  padding-top: rem-calc(84px);
+  em {
+    color: #00A0E9;
+    font-style: normal;
+  }
+}
+
+.searchItem {
+  display: block;
+  margin-bottom: rem-calc(60px);
+  text-decoration: none;
+  width: rem-calc(800px);
+}
+
+.searchTitle {
+  font-size: rem-calc(24px);
+  color: #4A4A4A;
+  margin-bottom: rem-calc(10px);
+}
+
+.searchKeywordTitle {
+  margin-bottom: rem-calc(72px);
+  font-size: rem-calc(24px);
+  color: #4A4A4A;
+}
+
+.keywordText {
+  color: #00A0E9;
+  padding-left:rem-calc(10px);
+}
+
+.searchContent {
+  font-size: rem-calc(13px);
+  color: #4A4A4A;
+}
+
+.pagination {
+  width: rem-calc(1200px);
+  margin: rem-calc(25px) auto rem-calc(182px);
+  > span {
+    display: inline-block;
+    width: rem-calc(24px);
+    height: rem-calc(24px);
+    margin-right: rem-calc(5px);
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+.currentPage {
+  color: #ffffff;
+  background-color: #00A0E9;
+  border-radius: rem-calc(100px);
+}
+

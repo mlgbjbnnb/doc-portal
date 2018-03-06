@@ -1,0 +1,126 @@
+.searchWrapper {
+  margin: rem-calc(56px) auto;
+  display: block;
+  width: rem-calc(960px);
+  position: relative;
+  > span {
+    position: absolute;
+    left: rem-calc(-120px);
+    top: rem-calc(10px);
+    font-size: rem-calc(24px);
+    color: #00A0E9;
+  }
+}
+
+.faqSearch {
+  position: relative;
+  > input {
+    width: rem-calc(960px);
+    height: rem-calc(48px);
+    padding-left: rem-calc(70px);
+    font-size: rem-calc(18px);
+    color: #7D9BB4;
+    border: rem-calc(1px) solid #E1EBF0;
+    border-radius: rem-calc(100px);
+    background: url(../img/magnifer_large.png) rem-calc(36px) rem-calc(16px) no-repeat;
+  }
+}
+
+.faqVersionBox {
+  position:absolute;
+  font-size: rem-calc(16px);
+  top: rem-calc(18px);
+  left: rem-calc(34px);
+  color: #00A0E9;
+  cursor: pointer;
+  &:focus {
+    outline: none;
+  }
+  > ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: rem-calc(65px);
+    left: rem-calc(-35px);
+    max-height: rem-calc(400px);
+    width: rem-calc(1200px);
+    border: 1px solid #E1EBF0;
+    border-radius: rem-calc(8px);
+    overflow: scroll;
+    color: #445870;
+    > li {
+      line-height: rem-calc(40px);
+      font-size: rem-calc(16px);
+      padding-left: rem-calc(34px);
+      cursor: pointer;
+      &:hover {
+        background-color: #E9EFF4;
+      }
+    }
+  }
+}
+
+.dropDownTitle {
+  font-size: rem-calc(12px);
+  color: #7D9BB4;
+  padding: rem-calc(20px) 0 rem-calc(20px) rem-calc(34px);
+}
+
+.indicatorDownPos {
+  position: absolute !important;
+  top: rem-calc(10px) !important;
+  left: rem-calc(180px) !important;
+}
+
+.indicatorUpPos {
+  position: absolute !important;
+  top: rem-calc(0px) !important;
+  left: rem-calc(180px) !important;
+}
+
+.showDropDown {
+  display: block !important;
+  background-color: #ffffff;
+}
+
+.faqPushContainer {
+  margin: rem-calc(56px) auto;
+  width: rem-calc(1200px);
+  color: #4A4A4A;
+}
+
+.faqBlock {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.faqTitle-cn {
+  font-family: Custom-Avenir, PingFangSC-Regular;
+  font-size: rem-calc(24px);
+  margin-bottom: rem-calc(27px);
+}
+
+.faqTitle-en {
+  font-family: Avenir-Medium;
+  font-size: rem-calc(24px);
+  margin-bottom: rem-calc(27px);
+}
+
+.faqContent {
+  font-size: rem-calc(13px);
+  max-height: rem-calc(240px);
+  > a {
+    text-decoration: none;
+    color: #4A4A4A;
+    display: block;
+    max-width: rem-calc(240px);
+    line-height: rem-calc(24px);
+    > em {
+      font-style: normal;
+    }
+  }
+}
+
+

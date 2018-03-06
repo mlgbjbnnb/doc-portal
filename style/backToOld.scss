@@ -1,0 +1,47 @@
+@import "global";
+
+.oldVersion {
+  height: rem-calc(32px);
+  background-color: #E9EFF4;
+  font-size: rem-calc(12px);
+  line-height: rem-calc(32px);
+  letter-spacing: rem-calc(0.7px);
+  color: #8CA6BD;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  > a {
+    text-decoration: none;
+  }
+}
+
+.oldVersionInfo {
+  padding-left: rem-calc(26px);
+  background: url(../img/icon-2.svg) 0 rem-calc(-4px) no-repeat;
+  line-height: rem-calc(16px);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.oldVersionBtn {
+  border-radius: rem-calc(100px);
+  border: 1px solid #B6CDE4;
+  line-height: rem-calc(16px);
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6.7%;
+  padding: rem-calc(3px) rem-calc(11px);
+  cursor: pointer;
+}
+
+.oldVersionBoxCn {
+  margin: 0 auto;
+  width: rem-calc(546px);
+}
+
+.oldVersionBoxEn {
+  margin: 0 auto;
+  width: rem-calc(458px);
+}

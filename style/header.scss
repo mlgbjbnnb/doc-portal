@@ -1,0 +1,185 @@
+@import "global";
+
+.dpHeader {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  height: rem-calc(128px);
+  background-color: #FFFFFF;
+  z-index: 1;
+  padding-top: rem-calc(32px);
+}
+
+.logoContainer {
+  height: rem-calc(96px);
+  line-height: rem-calc(96px);
+  text-align: center;
+  display: inline-block;
+}
+
+.langStyle {
+  position: absolute;
+  right: rem-calc(24px);
+  font-size: rem-calc(12px);
+  top: rem-calc(44px);
+  > a {
+    text-decoration: none;
+    color: #7D9BB4;
+  }
+}
+
+.logo {
+  background: url(../img/img_logo.svg) 0 0 no-repeat;
+  background-position: 50%;
+  display: inline-block;
+  height: rem-calc(40px);
+  width: rem-calc(120px);
+  vertical-align: middle;
+  margin-left: rem-calc(40px);
+}
+
+.nav-cn {
+  display: inline-block;
+  margin: 0 rem-calc(34px) 0 rem-calc(53px);
+  > a {
+    font-size: rem-calc(14px);
+    margin-right: rem-calc(36px);
+
+      text-decoration: none;
+      color: #7D9BB4;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.nav-en {
+  display: inline-block;
+  margin: 0 rem-calc(36px) 0 rem-calc(37px);
+  > a {
+    font-size: rem-calc(14px);
+    margin-right: rem-calc(15px);
+
+      text-decoration: none;
+      color: #7D9BB4;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.navFaq-cn {
+  margin-right: rem-calc(385px);
+}
+
+.navFaq-en {
+  margin-right: rem-calc(280px);
+}
+
+.navDashboard {
+  background: url(../img/icon_dashboard.svg) 0 50% no-repeat;
+  padding-left: rem-calc(17px);
+}
+
+.navForum {
+  background: url(../img/icon_forum.svg) 0 50% no-repeat;
+  padding-left: rem-calc(18px);
+}
+
+.activeNavItem-en {
+  color: #00A0E9 !important;
+  font-size: rem-calc(16px) !important;
+  font-family: Avenir-Medium;
+  line-height: rem-calc(16px);
+}
+
+.activeNavItem-cn {
+  color: #00A0E9 !important;
+  font-size: rem-calc(16px) !important;
+  font-family: Custom-Avenir, PingFangSC-Regular;
+  line-height: rem-calc(16px);
+}
+
+.menu-cn {
+  composes: nav-cn;
+  margin-right: rem-calc(34px);
+  margin-left: 0;
+  float: right;
+  position: relative;
+  top: rem-calc(40px);
+  > a {
+    font-size: rem-calc(14px);
+    margin-right: rem-calc(30px);
+    color: #7D9BB4;
+    text-decoration: none;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.menu-en {
+  composes: nav-en;
+  margin-right: rem-calc(40px);
+  margin-left: 0;
+  float: right;
+  position: relative;
+  top: rem-calc(40px);
+  > a {
+    font-size: rem-calc(14px);
+    margin-right: rem-calc(36px);
+    color: #7D9BB4;
+    text-decoration: none;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.searchIcon {
+  background: url(../img/magnifer_small.png) rem-calc(15px) rem-calc(9px) no-repeat;
+  cursor: pointer;
+  width: rem-calc(35px);
+  height: rem-calc(32px);
+  display: inline-block;
+}
+
+.searchbar {
+  display: inline-block;
+  vertical-align: middle;
+  input {
+    border: 1px solid #B6CDE4;
+    border-radius: rem-calc(100px);
+    line-height: rem-calc(32px);
+    padding-left: rem-calc(40px);
+    box-sizing: border-box;
+    width: rem-calc(224px);
+    background: url(../img/magnifer_small.png) rem-calc(15px) rem-calc(9px) no-repeat;
+    background-color: #ffffff;
+    position: absolute;
+    top: rem-calc(62px);
+    z-index: 2;
+    &::placeholder {
+      color: #7D9BB4;
+      font-size: rem-calc(14px);
+      font-family: AvenirNext-Regular;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+
+.loginContainer {
+  display: inline-block;
+  margin-left: rem-calc(30px);
+  font-size: rem-calc(14px);
+  color: #7D9BB4;
+}
+
+
+

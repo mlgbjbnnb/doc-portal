@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_success</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-562.000000, -154.000000)">
+            <g id="Group" transform="translate(563.000000, 155.000000)">
+                <path d="M39.2615012,6.73849879 C48.2461663,15.7231638 48.2461663,30.2768362 39.2615012,39.2615012 C30.2768362,48.2461663 15.7231638,48.2461663 6.73849879,39.2615012 C-2.24616626,30.2768362 -2.24616626,15.7231638 6.73849879,6.73849879 C15.6489104,-2.24616626 30.2768362,-2.24616626 39.2615012,6.73849879 L39.2615012,6.73849879 Z" id="Shape" stroke="#6ECFA7" stroke-width="2"></path>
+                <path d="M22.4033051,29.7934384 L22.2653384,30 L16,25.8309495 L17.1584615,24.0965196 L21.8507614,27.2188466 L30.3967072,17 L32,18.3357921 L22.4119982,29.8006811 L22.4033051,29.7934384 Z" id="Combined-Shape" fill="#6ECFA7"></path>
+            </g>
+        </g>
+    </g>
+</svg>

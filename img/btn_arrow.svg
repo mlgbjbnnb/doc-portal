@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="5px" height="8px" viewBox="0 0 5 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>btn_arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-139.000000, -189.000000)" fill="#00A0E9">
+            <polygon id="btn_arrow" transform="translate(141.500000, 193.000000) scale(-1, 1) translate(-141.500000, -193.000000) " points="140.579769 192.999924 144 189.749986 143.212719 189 139 192.999924 143.212719 197 144 196.250014"></polygon>
+        </g>
+    </g>
+</svg>
